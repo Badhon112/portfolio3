@@ -1,6 +1,10 @@
 import React from "react";
 import "./Navbar.css";
 export default function Navbar() {
+  const refreshpage=(e)=>{
+    // e.preventDeafault()
+    window.location.reload(false)
+  }
   return (
     <div className="wrapper flex justify-between   text-xl">
       <div className="left flex items-center flex-1 gap-8 ">
@@ -11,7 +15,7 @@ export default function Navbar() {
         <div className="list ">
           <ul className="flex gap-8 mr-16 hover:cursor-pointer space-x-7 items-center">
             <a href="/" className="hover:text-yellow-400">Home</a>
-            <a href="#Work" className="hover:text-yellow-400">Services</a>
+            <a  href="#Work" onClick={()=>{window.location.reload()}} className="hover:text-yellow-400">Services</a>
             <li className="hover:text-yellow-400">Experience</li>
             <li>PortFolio</li>
             <li>Testimonials</li>
