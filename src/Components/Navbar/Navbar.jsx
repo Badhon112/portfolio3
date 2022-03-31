@@ -1,10 +1,10 @@
 import React from "react";
 import "./Navbar.css";
 export default function Navbar() {
-  const refreshpage=(e)=>{
-    // e.preventDeafault()
-    window.location.reload(false)
-  }
+  // const refreshpage=(e)=>{
+  //   // e.preventDeafault()
+  //   window.location.reload(false)
+  // }
   return (
     <div className="wrapper flex justify-between   text-xl">
       <div className="left flex items-center flex-1 gap-8 ">
@@ -17,8 +17,8 @@ export default function Navbar() {
             <a href="/" className="hover:text-yellow-400">Home</a>
             <a  href="#Work" onClick={()=>{window.location.reload()}} className="hover:text-yellow-400">Services</a>
             <li className="hover:text-yellow-400">Experience</li>
-            <li>PortFolio</li>
-            <li>Testimonials</li>
+            <li className="hover:text-yellow-400">PortFolio</li>
+            <li className="hover:text-yellow-400">Testimonials</li>
           </ul>
         </div>
         <button className="button  cursor-pointer hover:bg-white hover:text-orange-500 hover:ring-2 ring-orange-300  px-8 py-3 shadow-xl  rounded-full font-semibold text-sm bg-orange-400 text-white">
