@@ -4,13 +4,30 @@ import "./Services.css";
 import { Image } from "../../Data/Date";
 export default function Services() {
   return (
-    <div
-      className="Work flex flex-col items-center min-h-screen"
-      id="Work"
-    >
-      <div className=" overflow-hidden mt-10">
-        <span className="text-3xl font-semibold">My Services</span>
+    <div className="Work flex flex-col items-center min-h-screen" id="Work">
+      <div className=" overflow-hidden mt-10 flex flex-col">
+        <span className="text-3xl font-semibold cursor-pointer">
+          My Services
+        </span>
+        <div className="flex justify-center gap-2 p-3 items-center cursor-pointer">
+          <span
+            className=" animate-spin w-5 h-5 rounded-full  bg-gradient-to-r from-black to-white"
+            onClick={() => {
+              window.location.reload();
+            }}
+          >
+            {" "}
+          </span>
+          <p
+            onClick={() => {
+              window.location.reload();
+            }}
+          >
+            Tap to Refresh
+          </p>
+        </div>
       </div>
+
       <div className="mt-5 flex flex-col items-center">
         <div className="top flex space-x-20 overflow-hidden ">
           <div className="flex one flex-col items-center w-60 h-60 border-2 rounded-3xl  border-green-800 ">
