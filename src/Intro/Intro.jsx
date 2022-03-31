@@ -47,7 +47,7 @@ export default function Intro() {
                 alt=""
               />
             </a>
-            <a href="#">
+            <a href="https://github.com/Badhon112">
               <img
                 className="w-12 h-12 object-cover"
                 src={Image.linkdin}
