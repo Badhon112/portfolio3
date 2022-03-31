@@ -2,6 +2,7 @@ import React from "react";
 import "./Services.css";
 // import {Image}
 import { Image } from "../../Data/Date";
+import Color from "./Color2.jpg"
 export default function Services() {
   return (
     <div className="Work flex flex-col items-center min-h-screen" id="Work">
@@ -9,15 +10,18 @@ export default function Services() {
         <span className="text-3xl font-semibold cursor-pointer">
           My Services
         </span>
-        <div className="flex justify-center gap-2 p-3 items-center cursor-pointer">
-          <span
-            className=" animate-spin w-5 h-5 rounded-full  bg-gradient-to-r from-black to-white"
+        <div className="flex justify-center gap-2 p-3 items-center cursor-pointer ">
+          {/* <span
+            className=" animate-spin "
             onClick={() => {
               window.location.reload();
             }}
           >
-            {" "}
-          </span>
+            
+          </span> */}
+          <img className="w-5 h-5 object-cover flex items-center justify-center animate-spin" src={Color} alt="" onClick={() => {
+              window.location.reload();
+            }}/>
           <p
             onClick={() => {
               window.location.reload();
