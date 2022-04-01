@@ -34,7 +34,7 @@ export default function Services() {
 
       <div className="mt-2 flex flex-col items-center">
         <div className="top flex space-x-20 overflow-hidden ">
-          <div className="flex one flex-col items-center w-60 h-60  rounded-3xl  border-green-800 ">
+          <div className="flex six relative flex-col items-center w-60 h-60  rounded-3xl  border-green-800 ">
             <img
               src={Image.Ui}
               alt="Figma"
