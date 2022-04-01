@@ -6,7 +6,7 @@ export default function Navbar() {
   //   window.location.reload(false)
   // }
   return (
-    <div className="wrapper flex pt-8 px-14 justify-between items-center fixed w-full text-xl">
+    <div className="wrapper flex pt-4 px-14 justify-between items-center fixed w-full text-xl">
       <div className="left flex items-center flex-1 gap-8 ">
         <div className="name">Badhon</div>
         <span>Toggol</span>

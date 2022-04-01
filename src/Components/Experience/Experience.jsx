@@ -4,7 +4,7 @@ import "./Experience.css";
 export default function Experience() {
   return (
     <div
-      className="expericement flex items-center min-h-screen mb-32 justify-center gap-20  "
+      className="expericement flex items-center p-12 justify-center gap-20  "
       id="Experience"
     >
 

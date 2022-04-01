@@ -5,7 +5,7 @@ import { Image } from "../../Data/Date";
 import Color from "./Color2.jpg"
 export default function Services() {
   return (
-    <div className="Work flex flex-col items-center pt-12 overflow-y-hidden min-h-screen" id="Services">
+    <div className="Work flex flex-col items-center pt-16 overflow-y-hidden min-h-screen" id="Services">
       <div className=" overflow-hidden mt-2 flex flex-col">
         <span className="text-3xl font-semibold cursor-pointer">
           My Services
@@ -32,7 +32,7 @@ export default function Services() {
         </div>
       </div>
 
-      <div className="mt-5 flex flex-col items-center">
+      <div className="mt-2 flex flex-col items-center">
         <div className="top flex space-x-20 overflow-hidden ">
           <div className="flex one flex-col items-center w-60 h-60  rounded-3xl  border-green-800 ">
             <img
