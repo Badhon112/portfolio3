@@ -1,6 +1,7 @@
 .intro{
-    height: 77vh;
+    /* height: calc(100vh - 200px); */
     /* background: #e7f1f1; */
+    
 }
 .i-left{
 

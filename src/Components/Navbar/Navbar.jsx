@@ -6,18 +6,18 @@ export default function Navbar() {
   //   window.location.reload(false)
   // }
   return (
-    <div className="wrapper flex justify-between   text-xl">
+    <div className="wrapper flex pt-8 px-14 justify-between items-center fixed w-full text-xl">
       <div className="left flex items-center flex-1 gap-8 ">
         <div className="name">Badhon</div>
         <span>Toggol</span>
       </div>
-      <div className="right flex justify-between items-center font-normal">
+      <div className="right flex justify-between items-center font-normal ml-64">
         <div className="list ">
           <ul className="flex gap-8 mr-16 hover:cursor-pointer space-x-7 items-center">
-            <a href="/" className="hover:text-yellow-400">Home</a>
-            <a  href="#Work"  className="hover:text-yellow-400">Services</a>
-            <li className="hover:text-yellow-400">Experience</li>
-            <li className="hover:text-yellow-400">PortFolio</li>
+            <a href="#" className="hover:text-yellow-400">Home</a>
+            <a  href="#Services"  className="hover:text-yellow-400">Services</a>
+            <a className="hover:text-yellow-400" href="#Experience">Experience</a>
+            <a href="#Work" className="hover:text-yellow-400">Work</a>
             <li className="hover:text-yellow-400">Testimonials</li>
           </ul>
         </div>

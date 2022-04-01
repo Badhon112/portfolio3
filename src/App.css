@@ -10,8 +10,11 @@
   --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0);
 }
 .App{
-    padding: 0.5rem 3.5rem;
-    overflow: hidden;
+    /* padding: 0.5rem 3.5rem; */
+    overflow-y: hidden;
     color: var(--black);
     scroll-behavior: smooth;
+}
+.con{
+  padding: 0.5rem 3.5rem;
 }

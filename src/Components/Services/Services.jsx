@@ -5,12 +5,12 @@ import { Image } from "../../Data/Date";
 import Color from "./Color2.jpg"
 export default function Services() {
   return (
-    <div className="Work flex flex-col items-center min-h-screen" id="Work">
-      <div className=" overflow-hidden mt-10 flex flex-col">
+    <div className="Work flex flex-col items-center pt-12 overflow-y-hidden min-h-screen" id="Services">
+      <div className=" overflow-hidden mt-2 flex flex-col">
         <span className="text-3xl font-semibold cursor-pointer">
           My Services
         </span>
-        <div className="flex justify-center gap-2 p-3 items-center cursor-pointer ">
+        <div className="flex justify-center gap-2 p-2 items-center cursor-pointer ">
           {/* <span
             className=" animate-spin "
             onClick={() => {
@@ -27,18 +27,18 @@ export default function Services() {
               window.location.reload();
             }}
           >
-            Tap to Refresh
+            Tap to Animation
           </p>
         </div>
       </div>
 
       <div className="mt-5 flex flex-col items-center">
         <div className="top flex space-x-20 overflow-hidden ">
-          <div className="flex one flex-col items-center w-60 h-60 border-2 rounded-3xl  border-green-800 ">
+          <div className="flex one flex-col items-center w-60 h-60 border-4 rounded-3xl  border-green-800 ">
             <img
               src={Image.Ui}
               alt="Figma"
-              className="w-10 h-10 mt-2 rounded-full"
+              className="w-10 h-10 mt-2 rounded-full animate-bounce"
             />
             <span className="font-bold text-lg p-2">Ui/UX</span>
             <span className="text-center text-sm  p-3">
@@ -50,7 +50,7 @@ export default function Services() {
             <img
               src={Image.Illustration}
               alt="Figma"
-              className="w-10 h-10 mt-2 rounded-full"
+              className="w-10 h-10 mt-2 rounded-full animate-spin"
             />
             <span className="font-bold text-lg p-2">Icon/iLLustration</span>
             <span className="text-center text-sm p-3">
@@ -61,7 +61,7 @@ export default function Services() {
             <img
               src={Image.Mern}
               alt="Figma"
-              className="w-10 h-10 mt-2 rounded-full"
+              className="w-10 h-10 mt-2 rounded-full animate-bounce"
             />
             <span className="font-bold text-lg p-2">Mern</span>
             <span className="text-center text-sm p-3">
@@ -72,7 +72,7 @@ export default function Services() {
             <img
               src={Image.Development}
               alt="Figma"
-              className="w-10 h-10 mt-2 rounded-full"
+              className="w-10 h-10 mt-2 rounded-full animate-pulse"
             />
             <span className="font-bold text-lg p-2">Development</span>
             <span className="text-center text-sm p-3">
@@ -85,7 +85,7 @@ export default function Services() {
             <img
               src={Image.React}
               alt="Figma"
-              className="w-10 h-10 mt-2 rounded-full"
+              className="w-10 h-10 mt-2 rounded-full animate-spin"
             />
             <span className="font-bold text-lg p-2">React</span>
             <span className="text-center text-sm p-3">
@@ -96,7 +96,7 @@ export default function Services() {
             <img
               src={Image.Nodejs}
               alt="Figma"
-              className="w-10 h-10 mt-2 rounded-full"
+              className="w-10 h-10 mt-2 rounded-full animate-bounce"
             />
             <span className="font-bold text-lg p-2">Node js</span>
             <span className="text-center text-sm p-3">
@@ -107,7 +107,7 @@ export default function Services() {
             <img
               src={Image.Eco}
               alt="Figma"
-              className="w-10 h-10 mt-2 rounded-full"
+              className="w-10 h-10 mt-2 rounded-full animate-pulse"
             />
             <span className="font-bold text-lg p-2">E_commerce</span>
             <span className="text-center text-sm p-3">
@@ -119,7 +119,7 @@ export default function Services() {
             <img
               src={Image.SM}
               alt="Figma"
-              className="w-10 h-10 mt-2 rounded-full"
+              className="w-10 h-10 mt-2 rounded-full animate-pulse"
             />
             <span className="font-bold text-lg p-2">Social Media</span>
             <span className="text-center text-sm p-3">

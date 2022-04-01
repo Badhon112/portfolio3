@@ -1,8 +1,9 @@
 .wrapper{
-height: 10vh;
+height: 8vh;
 transition: all 1s ease;
 scroll-behavior: smooth;
 z-index: 2;
+/* overflow-y: hidden; */
 }
 .left{
 transition: all 0.3s ease-in-out;

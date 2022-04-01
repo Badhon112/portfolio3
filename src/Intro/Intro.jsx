@@ -4,10 +4,10 @@ import { Image } from "../Data/Date";
 
 export default function Intro() {
   return (
-    <div className="intro min-h-screen flex ">
-      <div className="i-left mt-24 gap-y-5 flex relative flex-1 flex-col ">
-        <div className="i-name flex flex-col gap-y-3">
-          <span className="text-black font-bold text-5xl">Hy! I Am</span>
+    <div className="intro mt-16 overflow-y-hidden min-h-screen top-6  flex ">
+      <div className="i-left  gap-y-5 flex relative flex-1 flex-col ">
+        <div className="i-name flex flex-col pt-24 gap-y-3">
+          <span className="text-black font-bold text-5xl">Hey! I Am</span>
           <span className="text-yellow-500 font-bold text-5xl">
             Badhon Biswas
           </span>
@@ -21,7 +21,7 @@ export default function Intro() {
             time
           </span>
         </div>
-        <button className="w-52  cursor-pointer hover:bg-white hover:text-orange-500 hover:ring-2 ring-orange-300  px-8 py-3 shadow-xl  rounded-full font-semibold text-sm bg-orange-400 text-white">
+        <button className="w-52 ml-1 animate-bounce cursor-pointer hover:bg-white hover:text-orange-500 hover:ring-2 ring-orange-300  px-8 py-3 shadow-xl  rounded-full font-semibold text-sm bg-orange-400 text-white">
           Hire me
         </button>
         <div className="icon mt-12">
