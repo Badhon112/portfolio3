@@ -15,7 +15,7 @@ export default function Navbar() {
         <div className="list ">
           <ul className="flex gap-8 mr-16 hover:cursor-pointer space-x-7 items-center">
             <a href="/" className="hover:text-yellow-400">Home</a>
-            <a  href="#Work" onClick={()=>{window.location.reload()}} className="hover:text-yellow-400">Services</a>
+            <a  href="#Work"  className="hover:text-yellow-400">Services</a>
             <li className="hover:text-yellow-400">Experience</li>
             <li className="hover:text-yellow-400">PortFolio</li>
             <li className="hover:text-yellow-400">Testimonials</li>
