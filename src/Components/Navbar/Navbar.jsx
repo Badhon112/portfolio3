@@ -14,7 +14,7 @@ export default function Navbar() {
       <div className="right flex justify-between items-center font-normal ml-64">
         <div className="list ">
           <ul className="flex gap-8 mr-16 hover:cursor-pointer space-x-7 items-center">
-            <a href="#" className="hover:text-yellow-400">Home</a>
+            <a href="#Home" className="hover:text-yellow-400">Home</a>
             <a  href="#Services"  className="hover:text-yellow-400">Services</a>
             <a className="hover:text-yellow-400" href="#Experience">Experience</a>
             <a href="#Work" className="hover:text-yellow-400">Work</a>

@@ -4,7 +4,7 @@ import { Image } from "../Data/Date";
 
 export default function Intro() {
   return (
-    <div className="intro mt-16 overflow-y-hidden min-h-screen top-6  flex ">
+    <div className="intro mt-16 overflow-y-hidden min-h-screen top-6  flex " id="Home">
       <div className="i-left  gap-y-5 flex relative flex-1 flex-col ">
         <div className="i-name flex flex-col pt-24 gap-y-3">
           <span className="text-black font-bold text-5xl">Hey! I Am</span>

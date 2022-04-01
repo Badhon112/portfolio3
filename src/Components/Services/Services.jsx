@@ -34,7 +34,7 @@ export default function Services() {
 
       <div className="mt-5 flex flex-col items-center">
         <div className="top flex space-x-20 overflow-hidden ">
-          <div className="flex one flex-col items-center w-60 h-60 border-4 rounded-3xl  border-green-800 ">
+          <div className="flex one flex-col items-center w-60 h-60  rounded-3xl  border-green-800 ">
             <img
               src={Image.Ui}
               alt="Figma"
@@ -46,7 +46,7 @@ export default function Services() {
               User Experience Design
             </span>
           </div>
-          <div className="flex two flex-col items-center w-60 h-60 border-2 rounded-3xl border-orange-600">
+          <div className="flex two flex-col items-center w-60 h-60  rounded-3xl border-orange-600">
             <img
               src={Image.Illustration}
               alt="Figma"
@@ -57,7 +57,7 @@ export default function Services() {
               Character Design, Icon Set, Illustration Guide, Illustration Set
             </span>
           </div>
-          <div className="flex three flex-col items-center w-60 h-60 border-2 rounded-3xl border-blue-700 ">
+          <div className="flex three flex-col items-center w-60 h-60  rounded-3xl border-blue-700 ">
             <img
               src={Image.Mern}
               alt="Figma"
@@ -68,7 +68,7 @@ export default function Services() {
               Rich Mern Stack Developer Develop Social Media E_commerce
             </span>
           </div>
-          <div className="flex four flex-col items-center w-60 h-60 border-2 rounded-3xl border-green-400 ">
+          <div className="flex four flex-col items-center w-60 h-60  rounded-3xl border-green-400 ">
             <img
               src={Image.Development}
               alt="Figma"
@@ -81,7 +81,7 @@ export default function Services() {
           </div>
         </div>
         <div className="bottom mt-5 flex space-x-20  overflow-hidden">
-          <div className="flex five flex-col items-center w-60 h-60 border-2 rounded-3xl border-yellow-300 ">
+          <div className="flex five flex-col items-center w-60 h-60  rounded-3xl border-yellow-300 ">
             <img
               src={Image.React}
               alt="Figma"
@@ -92,7 +92,7 @@ export default function Services() {
               2.5 Years of Experience and Build Some Amazing frontend Project
             </span>
           </div>
-          <div className="flex six flex-col items-center w-60 h-60 border-2 rounded-3xl border-lime-800 ">
+          <div className="flex six flex-col items-center w-60 h-60  rounded-3xl border-lime-800 ">
             <img
               src={Image.Nodejs}
               alt="Figma"
@@ -103,7 +103,7 @@ export default function Services() {
               2 Years of Experience and Build Some Amazing Backend Project
             </span>
           </div>
-          <div className="flex seven flex-col items-center w-60 h-60 border-2 rounded-3xl border-gray-500 ">
+          <div className="flex seven flex-col items-center w-60 h-60  rounded-3xl border-gray-500 ">
             <img
               src={Image.Eco}
               alt="Figma"
@@ -115,7 +115,7 @@ export default function Services() {
               so On,
             </span>
           </div>
-          <div className="flex eight flex-col items-center w-60 h-60 border-2 rounded-3xl border-yellow-900 ">
+          <div className="flex eight flex-col items-center w-60 h-60  rounded-3xl border-yellow-900 ">
             <img
               src={Image.SM}
               alt="Figma"
