@@ -21,9 +21,9 @@ export default function Intro() {
             time
           </span>
         </div>
-        <button className="w-52 ml-1 animate-bounce cursor-pointer hover:bg-white hover:text-orange-500 hover:ring-2 ring-orange-300  px-8 py-3 shadow-xl  rounded-full font-semibold text-sm bg-orange-400 text-white">
+        <a href="#Contact" className="w-52 ml-1 text-center  animate-bounce cursor-pointer hover:bg-white hover:text-orange-500 hover:ring-2 ring-orange-300  px-8 py-3 shadow-xl  rounded-full font-semibold text-sm bg-orange-400 text-white">
           Hire me
-        </button>
+        </a>
         <div className="icon mt-12">
           <ul className="flex gap-x-10">
             <a href="https://www.stopstalk.com/user/profile/BadhonBiswas">

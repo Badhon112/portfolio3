@@ -1,0 +1,21 @@
+
+.img{
+    width: 700px;
+    height: 450px;
+}
+.min{
+    height: 70vh;
+}
+.portfolio .swiper{
+    overflow: visible!important;
+}
+.portfolio-slider{
+    margin-top: 3rem;
+    width: 100%;
+}
+.portfolio-slider .swiper-slider{
+    width: 20rem;
+}
+/* .portfolio img{
+    width: 19rem;
+} */

@@ -11,19 +11,20 @@ export default function Navbar() {
         <div className="name">Badhon</div>
         <span>Toggol</span>
       </div>
-      <div className="right flex justify-between items-center font-normal ml-64">
+      <div className="right flex justify-between items-center font-normal ml-40">
         <div className="list ">
           <ul className="flex gap-8 mr-16 hover:cursor-pointer space-x-7 items-center">
             <a href="#Home" className="hover:text-yellow-400">Home</a>
             <a  href="#Services"  className="hover:text-yellow-400">Services</a>
             <a className="hover:text-yellow-400" href="#Experience">Experience</a>
             <a href="#Work" className="hover:text-yellow-400">Work</a>
-            <li className="hover:text-yellow-400">Testimonials</li>
+            <a className="hover:text-yellow-400" href="#portfolio">portfolio</a>
+            <a className="hover:text-yellow-400" href="#Testimonials">Testimonials</a>
           </ul>
         </div>
-        <button className="button  cursor-pointer hover:bg-white hover:text-orange-500 hover:ring-2 ring-orange-300  px-8 py-3 shadow-xl  rounded-full font-semibold text-sm bg-orange-400 text-white">
+        <a href="#Contact" className="button  cursor-pointer hover:bg-white hover:text-orange-500 hover:ring-2 ring-orange-300  px-8 py-3 shadow-xl  rounded-full font-semibold text-sm bg-orange-400 text-white">
           Contact
-        </button>
+        </a>
       </div>
     </div>
   );
