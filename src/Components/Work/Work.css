@@ -5,3 +5,25 @@
     width: 450px;
     height: 450px
 }
+@keyframes one1 {
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    50%{
+        top: 10px;
+        left: 10px;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+    }
+}
+.one{
+    animation-name: one1;
+    animation-delay: 1;
+}
+.ci{
+    width: 600px;
+    height: 600px;
+}

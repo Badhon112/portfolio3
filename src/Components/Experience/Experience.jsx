@@ -28,7 +28,7 @@ export default function Experience() {
       </div>
       <div className=" achievement flex flex-col items-center">
         <div className=" bg-slate-400 bcycle rounded-full bg-gradient-to-r from-violet-500 to-fuchsia-500 hover:bg-gradient-to-r hover:from-rose-400 hover:to-green-400 animate-bounce">
-          <div className="circle w-20 h-20 bg-white rounded-full   m-2 flex justify-center font-semibold mb-8   items-center">
+          <div className="circle  w-20 h-20 bg-white rounded-full   m-2 flex justify-center font-semibold mb-8   items-center">
             5+
           </div>
         </div>

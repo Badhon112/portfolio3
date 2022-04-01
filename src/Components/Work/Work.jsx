@@ -1,5 +1,5 @@
 import React from "react";
-import "./Work.css"
+import "./Work.css";
 import fiver from "./fiver1.png";
 export default function Work() {
   return (
@@ -25,19 +25,47 @@ export default function Work() {
           Hire me
         </button>
       </div>
-      <div className="flex items-center justify-center flex-1 ">
-        <div className="animate-bounce mt-10 flex-col absolute justify-between rings rounded-full shadow-2xl shadow-gray-400 flex  items-center">
-          <div className="">
-            <img src={fiver} className="w-28 h-28 rounded-full animate-bounce" alt="" />
+        <div className="flex items-center justify-center flex-1 ">
+          <div className=" mt-10 flex-col relative justify-between rings rounded-full shadow-2xl shadow-gray-400 flex  items-center">
+            <div className="">
+              <img
+                src={fiver}
+                className="w-28 h-28 rounded-full animate-bounce "
+                alt=""
+              />
+            </div>
+            <div className="flex space-x-16 ">
+              <div>
+                <img
+                  src={fiver}
+                  className="  w-28 h-28 animate-bounce rounded-full "
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  src={fiver}
+                  className=" w-28 h-28 rounded-full animate-bounce "
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  src={fiver}
+                  className="w-28 h-28 rounded-full animate-bounce "
+                  alt=""
+                />
+              </div>
+            </div>
+            <div>
+              <img
+                src={fiver}
+                className="  w-28 h-28 rounded-full animate-bounce"
+                alt=""
+              />
+            </div>
           </div>
-          <div className="flex space-x-10 relative">
-            <div><img src={fiver} className="w-28 h-28 animate-bounce rounded-full" alt="" /></div>
-            <div><img src={fiver} className="w-28 h-28 rounded-full animate-bounce" alt="" /></div>
-            <div><img src={fiver} className="w-28 h-28 rounded-full animate-bounce" alt="" /></div>
-          </div>
-          <div><img src={fiver} className="w-28 h-28 rounded-full animate-bounce" alt="" /></div>
         </div>
-      </div>
     </div>
   );
 }
