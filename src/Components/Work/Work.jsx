@@ -26,7 +26,7 @@ export default function Work() {
         </a>
       </div>
         <div className="flex items-center justify-center flex-1 pt-20">
-          <div className=" animate-bounce mt-28 flex-col relative justify-between rings rounded-full shadow-2xl shadow-gray-400 flex  items-center">
+          <div className="  mt-2 flex-col relative justify-between rings rounded-full shadow-2xl shadow-gray-400 flex  items-center">
             <div className="">
               <img
                 src={fiver}
