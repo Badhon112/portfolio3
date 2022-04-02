@@ -24,7 +24,7 @@ export default function Intro() {
         <a href="#Contact" className="w-44 ml-1 text-center   animate-bounce cursor-pointer hover:bg-white hover:text-lime-500 hover:ring-2 ring-lime-600  px-8 py-3 shadow-2xl   rounded-full font-semibold text-lg bg-lime-400 text-white">
           Hire me
         </a>
-        <div className="icon mt-12">
+        <div className="icon mt-7">
           <ul className="flex gap-x-10">
             <a href="https://www.stopstalk.com/user/profile/BadhonBiswas">
               <img
