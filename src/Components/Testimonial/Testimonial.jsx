@@ -53,7 +53,7 @@ export default function Testimonial() {
         {clients.map((client) => {
           return (
             <SwiperSlide key={client.id} className="pb-16 flex flex-col  justify-center items-center ">
-              <div className="testimonial w-3/4 h-72  gap-4 flex flex-col border-l-2 border-r-2 border-b-2 border-lime-500 text-white justify-center rounded-lg items-center ">
+              <div className="testimonial w-3/4 h-72  gap-4 flex flex-col border-l-2 border-r-2 border-b-8 border-lime-500 text-white justify-center rounded-lg items-center ">
                 <img src={client.img} alt="" className="w-40 h-40 ring-4 ring-blue-600 rounded-full" />
                 <span className="px-5 text-black text-lg">{client.review}</span>
               </div>
