@@ -51,12 +51,12 @@ export default function Contact() {
   return (
     <div className="flex justify-center mb-20 mt-10 contact space-x-10 " id="Contact">
       <div className="flex w-96 mr-9 mt-24 flex-col">
-        <span className="text-4xl font-semibold">Contact Me</span>
+        <span className="text-4xl font-semibold text-lime-600 italic">Contact Me</span>
         <span className="mt-10 text-lg font-light">Need to get in touch with me or contact with me? Then fill those input I am Very Responsive</span>
       </div>
       <div className=" h-fit border-2  rounded-lg shadow-lg shadow-gray-300">
         <div className="flex flex-col justify-center items-center space-y-2 border-b-2 border-gray-500">
-          <span className="text-4xl p-3 font-semibold italic text-orange-600 ">
+          <span className="text-4xl p-3 font-semibold italic text-lime-600 ">
             Contact Me
           </span>
         </div>

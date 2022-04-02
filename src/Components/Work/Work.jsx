@@ -6,7 +6,7 @@ export default function Work() {
     <div className=" minh px-10  flex " id="Work">
       <div className="awesome flex-col pt-52 flex flex-1">
         <span className="text-5xl m-2 font-extrabold">Works for All these</span>
-        <span className="text-5xl m-2 font-semibold text-amber-600">
+        <span className="text-5xl m-2 font-semibold text-lime-600">
           Brands & Clients
         </span>
         <br />
@@ -21,7 +21,7 @@ export default function Work() {
           Lorem ipsum dolor sit amet consectetur adipisicing.
         </div>
 
-        <a href="#Contact" className="w-40 text-xl mt-8 text-center  animate-bounce cursor-pointer hover:bg-white hover:text-orange-500 hover:ring-2 ring-orange-300  py-2 shadow-xl   rounded-full font-semibold bg-orange-400 text-white">
+        <a href="#Contact" className="w-44 mt-4 text-center   animate-bounce cursor-pointer hover:bg-white hover:text-lime-500 hover:ring-2 ring-lime-600  px-8 py-3 shadow-2xl   rounded-full font-semibold text-lg bg-green-400 text-white">
           Hire me
         </a>
       </div>

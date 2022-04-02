@@ -9,7 +9,7 @@ export default function Experience() {
     >
 
       <div className=" achievement flex flex-col items-center">
-        <div className=" bg-slate-400  bcycle rounded-full bg-gradient-to-r from-cyan-500 to-blue-500 animate-bounce hover:bg-gradient-to-r hover:from-blue-500 hover:to-cyan-500">
+        <div className=" bg-slate-400  bcycle rounded-full bg-gradient-to-r from-lime-500 to-green-500 animate-bounce hover:bg-gradient-to-r hover:from-green-200 hover:to-cyan-900">
           <div className="text-2xl fixed circle w-20 h-20 bg-white rounded-full m-2 flex justify-center font-semibold mb-8 items-center">
             3+
           </div>
@@ -18,7 +18,7 @@ export default function Experience() {
         <span className="text-orange-500 text-2xl">Experience</span>
       </div>
       <div className=" achievement flex flex-col items-center">
-        <div className=" bg-slate-400 bcycle rounded-full bg-gradient-to-r from-yellow-400 to-orange-500 animate-bounce hover:bg-gradient-to-r hover:from-orange-500 hover:to-yellow-500 focus:via-red-300">
+        <div className=" bg-slate-400 bcycle rounded-full bg-gradient-to-r from-green-400 to-lime-500 animate-bounce hover:bg-gradient-to-r hover:from-lime-500 hover:to-green-800 ">
           <div className="circle text-xl w-20 h-20 bg-white rounded-full  m-2 flex justify-center font-semibold mb-8 items-center">
             20 +
           </div>
@@ -27,7 +27,7 @@ export default function Experience() {
         <span className="text-2xl text-orange-600">Projects</span>
       </div>
       <div className=" achievement flex flex-col items-center">
-        <div className=" bg-slate-400 bcycle rounded-full bg-gradient-to-r from-violet-500 to-fuchsia-500 hover:bg-gradient-to-r hover:from-rose-400 hover:to-green-400 animate-bounce">
+        <div className=" bg-slate-400 bcycle rounded-full bg-gradient-to-r from-lime-500 to-green-500 hover:bg-gradient-to-r hover:from-lime-900 hover:to-green-200 animate-bounce">
           <div className="circle  w-20 h-20 bg-white rounded-full   m-2 flex justify-center font-semibold mb-8   items-center">
             5+
           </div>

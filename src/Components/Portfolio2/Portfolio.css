@@ -1,14 +1,14 @@
 
 .img{
     width: 700px;
-    height: 450px;
+    height: 470px;
 }
 .min{
     height: 70vh;
 }
-.portfolio .swiper{
+/* .portfolio .swiper{
     overflow: visible!important;
-}
+} */
 .portfolio-slider{
     margin-top: 3rem;
     width: 100%;
