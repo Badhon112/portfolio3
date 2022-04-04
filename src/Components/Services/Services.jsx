@@ -6,8 +6,8 @@ import Color from "./Color2.jpg"
 export default function Services() {
   return (
     <div className="Work flex flex-col items-center pt-16 overflow-y-hidden min-h-screen" id="Services">
-      <div className=" overflow-hidden mt-3 flex flex-col">
-        <span className="text-3xl font-semibold cursor-pointer text-center">
+      <div className=" overflow-hidden mt-2 flex flex-col">
+        <span className="text-3xl font-semibold cursor-pointer">
           My Services
         </span>
         <div className="flex justify-center gap-2 p-2 items-center cursor-pointer ">
